@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { loginUrl } from "./auth";
+import { loginUrl } from "./Auth";
 import "./App.css";
 
 function App() {
