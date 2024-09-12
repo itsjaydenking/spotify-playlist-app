@@ -1,38 +1,164 @@
-.App {
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", serif;
+  background-color: #1a1a1d;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* App Header */
+h1 {
+  font-size: 3rem;
+  color: #ffd700; /* Gold for a "royal" touch */
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Search Section */
+.search-bar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #ffd700;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  background-color: #333;
+  color: #ffd700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input[type="text"]::placeholder {
+  color: #999;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 1rem;
+  background-color: #333;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d4af37;
+}
+
+button.logout {
+  background-color: #e74c3c;
+}
+
+button.logout:hover {
+  background-color: #c0392b;
+}
+
+/* Track Container */
+.track-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.track {
+  background-color: #333;
+  width: 250px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid #ffd700;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.track:hover {
+  transform: scale(1.05);
+}
+
+.track h3 {
+  font-size: 1.3rem;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.track p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #bbb;
+}
+
+.track img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+button.select-track {
+  margin-top: 10px;
+  background-color: #1db954;
+}
+
+button.select-track.selected {
+  background-color: #ff4500; /* Orange if selected */
+}
+
+button.playlist {
+  margin-top: 20px;
+  background-color: #1db954;
+}
+
+button.playlist:hover {
+  background-color: #1aa34a;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  input[type="text"] {
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .track {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 }
