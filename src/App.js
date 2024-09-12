@@ -12,6 +12,8 @@ function App() {
 
   // Check if the user is authenticated
   useEffect(() => {
+    // Clear any old token that may be stored
+    window.localStorage.removeItem("token");
     const hash = window.location.hash; // Get the hash containing the access token
     let token = window.localStorage.getItem("token");
 
