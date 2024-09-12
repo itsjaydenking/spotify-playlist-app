@@ -1,5 +1,5 @@
-const CLIENT_ID = "c94106fb38c648399c3f429b9a931755";
-const REDIRECT_URI = "https://itsjaydenking.github.io/spotify-playlist-app/"; // Adjust based on your deployed URL
+const CLIENT_ID = "c94106fb38c648399c3f429b9a931755"; // Your Spotify Client ID
+const REDIRECT_URI = "https://itsjaydenking.github.io/spotify-playlist-app/"; // GitHub Pages URL
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 const RESPONSE_TYPE = "token";
 
