@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/itsjaydenking/spotify-playlist-app/static/css/main.fc7293e6.css",
-    "main.js": "/itsjaydenking/spotify-playlist-app/static/js/main.ff6c39e2.js",
-    "static/js/453.ab9fe123.chunk.js": "/itsjaydenking/spotify-playlist-app/static/js/453.ab9fe123.chunk.js",
-    "index.html": "/itsjaydenking/spotify-playlist-app/index.html",
-    "main.fc7293e6.css.map": "/itsjaydenking/spotify-playlist-app/static/css/main.fc7293e6.css.map",
-    "main.ff6c39e2.js.map": "/itsjaydenking/spotify-playlist-app/static/js/main.ff6c39e2.js.map",
-    "453.ab9fe123.chunk.js.map": "/itsjaydenking/spotify-playlist-app/static/js/453.ab9fe123.chunk.js.map"
+    "main.css": "/spotify-playlist-app/static/css/main.fc7293e6.css",
+    "main.js": "/spotify-playlist-app/static/js/main.e89deeb8.js",
+    "static/js/453.ab9fe123.chunk.js": "/spotify-playlist-app/static/js/453.ab9fe123.chunk.js",
+    "index.html": "/spotify-playlist-app/index.html",
+    "main.fc7293e6.css.map": "/spotify-playlist-app/static/css/main.fc7293e6.css.map",
+    "main.e89deeb8.js.map": "/spotify-playlist-app/static/js/main.e89deeb8.js.map",
+    "453.ab9fe123.chunk.js.map": "/spotify-playlist-app/static/js/453.ab9fe123.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc7293e6.css",
-    "static/js/main.ff6c39e2.js"
+    "static/js/main.e89deeb8.js"
   ]
 }
