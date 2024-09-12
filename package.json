@@ -1,7 +1,7 @@
 {
   "name": "spotify-playlist-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/itsjaydenking/spotify-playlist-app",
+  "homepage": "https://itsjaydenking.github.io/spotify-playlist-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
