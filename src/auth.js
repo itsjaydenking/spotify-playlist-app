@@ -1,5 +1,5 @@
 const CLIENT_ID = "c94106fb38c648399c3f429b9a931755";
-const REDIRECT_URI = "http://localhost:3000"; // Adjust based on your deployed URL
+const REDIRECT_URI = "https://itsjaydenking.github.io/spotify-playlist-app/"; // Adjust based on your deployed URL
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 const RESPONSE_TYPE = "token";
 
